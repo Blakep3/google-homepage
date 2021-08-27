@@ -6,25 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        form 
         .Google-Search { 
             position: relative;
             top: 350px;
-            left: 300px;
-            right: -420px;
+            left: 500px;
+            right: -500px;
             bottom: -350px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+        .feeling-lucky {
+            position: relative;
+            top: 350px;
+            left: 600px;
+            right: -600px;
+            bottom: 400px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+        .search-bar {
+            position:relative;
+            top: 250px;
+            left: 800px;
+            right: -800px;
+            bottom: -250px;
+        }
+        .image {
+            position: relative;
+            top: 200px;
+            left:820px;
+            right:-820px;
+            bottom: -200px;
         }
     </style>
 </head>
 <body>
-    
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="image">
     <form>
        
     
         
-        <input type="text">   
+        <input type="text" class="search-bar">   
         <input type="submit" class="Google-Search" name="Google-Search" value="Google Search">
-        <input type="submit" name="I'm Feeling Lucky" value="I'm feeling Lucky">
+        <input type="submit" class="feeling-lucky" name="I'm Feeling Lucky" value="I'm feeling Lucky">
         
 
         
